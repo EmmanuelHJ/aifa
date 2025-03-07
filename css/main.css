@@ -559,4 +559,44 @@ footer.footer-main {
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
   background-color: var(--gray-aifa-2);
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*Search Modal*/
+#modalSearchForm .modal-content {
+  font-family: var(--proxima);
+  background-color: var(--gray-aifa-2);
+  color: var(--cream-cons);
+}
+#modalSearchForm .modal-content input {
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--cream-cons);
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 0;
+}
+#modalSearchForm .modal-content input::-moz-placeholder {
+  color: var(--cream-cons);
+}
+#modalSearchForm .modal-content input::placeholder {
+  color: var(--cream-cons);
+}
+#modalSearchForm .modal-content input:focus {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-color: var(--cream-cons);
+  box-shadow: none;
+}
+#modalSearchForm .modal-content .btn {
+  font-size: 16px;
+  font-weight: 800;
+  background-color: transparent;
+  border-radius: 50px;
+  border-color: var(--cream-cons) !important;
+  color: var(--cream-cons);
+}
+
+/*Search Modal*//*# sourceMappingURL=main.css.map */
