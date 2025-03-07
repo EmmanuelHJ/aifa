@@ -29,7 +29,7 @@ jobs:
         run: |
           DIRECTORY=""
           if [ "${{ github.ref }}" == "refs/heads/main" ]; then
-            DIRECTORY="/home/mccimx/public_html/aeropuerto-santa-lucia-dedazo-militar/"
+            DIRECTORY="/home/mccimx/public_html/eleccion-judicial-2025-asi-va-el-proceso-para-elegir-jueces/"
           elif [ "${{ github.ref }}" == "refs/heads/development" ]; then
             DIRECTORY="/home/mccimx/public_html/test/aifa/"
           fi
@@ -43,7 +43,7 @@ jobs:
         run: |
           DIRECTORY=""
           if [ "${{ github.ref }}" == "refs/heads/main" ]; then
-            DIRECTORY="/home/mccimx/public_html/aeropuerto-santa-lucia-dedazo-militar/"
+            DIRECTORY="/home/mccimx/public_html/eleccion-judicial-2025-asi-va-el-proceso-para-elegir-jueces/"
           elif [ "${{ github.ref }}" == "refs/heads/development" ]; then
             DIRECTORY="/home/mccimx/public_html/test/aifa/"
           fi
@@ -60,5 +60,5 @@ jobs:
             -H "Authorization: Bearer ${{ secrets.CLOUDFLARE_API_TOKEN }}" \
             -H "Content-Type: application/json" \
             --data '{
-              "files": ["https://contralacorrupcion.mx/aeropuerto-santa-lucia-dedazo-militar/"]
+              "files": ["https://contralacorrupcion.mx/eleccion-judicial-2025-asi-va-el-proceso-para-elegir-jueces/"]
             }'
