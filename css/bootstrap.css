@@ -38,7 +38,7 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  box-sizing: inherit;
 }
 
 html {
@@ -285,7 +285,7 @@ button::-moz-focus-inner,
 
 input[type="radio"],
 input[type="checkbox"] {
-  box-sizing: border-box;
+  box-sizing: inherit;
   padding: 0;
 }
 
